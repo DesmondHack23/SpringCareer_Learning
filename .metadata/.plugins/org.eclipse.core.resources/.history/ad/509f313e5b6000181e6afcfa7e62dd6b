@@ -56,7 +56,7 @@ public class AlbumDAO implements IDAOGenerico<Album, Integer> {
 
 	@Override
 	public void deletar(Album modelo) {
-		// Delete data in the DB host
+		// Delete data in the DB
 		SessionFactory sf = HibernateSessionFactoryUtils.getSessionFactory();
 		Session session = sf.openSession();
 		session.delete(modelo);

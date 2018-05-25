@@ -9,7 +9,7 @@ import br.com.treinaweb.teste.struts2.dao.interfaces.IDAOGenerico;
 import br.com.treinaweb.teste.struts2.hibernate.utils.HibernateSessionFactoryUtils;
 import br.com.treinaweb.teste.struts2.models.Album;
 
-public class AlbumDAO implements IDAOGenerico<Album, Integer> {
+public class DAlbumDAO implements IDAOGenerico<Album, Integer> {
 
 	@SuppressWarnings("unchecked") // Ignore cache unchecked
 	@Override
