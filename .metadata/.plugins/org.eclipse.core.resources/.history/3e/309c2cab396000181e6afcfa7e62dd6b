@@ -1,0 +1,5 @@
+package br.com.treinaweb.teste.struts2.dao.interfaces;
+
+public interface IDAOGenerico {
+
+}
