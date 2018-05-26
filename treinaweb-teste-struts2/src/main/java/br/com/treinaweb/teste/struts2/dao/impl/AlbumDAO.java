@@ -18,7 +18,7 @@ public class AlbumDAO implements IDAOGenerico<Album, Integer> {
 		List<Album> albuns = null;
 		SessionFactory sf = HibernateSessionFactoryUtils.getSessionFactory();
 		Session session = sf.openSession();
-		albuns = (List<Album>) session.createQuery("FROM Album").list();
+		albuns = (List<Album>) session.createQuery("from Album").list();
 		session.close();
 		return albuns;
 	}
